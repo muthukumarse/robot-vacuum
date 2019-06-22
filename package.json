@@ -1,0 +1,14 @@
+{
+    "name": "robot-vacuum",
+    "version": "0.0.1",
+    "description": "The application is a simulation of a robot vacuum moving in an area of dimensions 5 units by 5 units.",
+    "license": "CDDL-1.0",
+    "main": "start.js",
+    "scripts": {
+        "start": "node start.js",
+        "sampleRun1": "node start.js commands1.txt",
+        "sampleRun2": "node start.js  commands2.txt",
+        "sampleRun3": "node start.js  commands3.txt",
+        "test": "jasmine"
+    }
+}
